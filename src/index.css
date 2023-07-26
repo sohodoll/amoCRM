@@ -29,6 +29,10 @@
   --group-background-focus: #678efe;
 }
 
+h1 {
+  margin: 0;
+}
+
 a {
   font-weight: 500;
   color: #000000;

@@ -1,0 +1,109 @@
+.intro {
+  width: 100%;
+  height: 1069px;
+  position: relative;
+  z-index: 10;
+}
+
+.layer {
+  width: 634px;
+  height: 1069px;
+  background: #57b8ff;
+  position: absolute;
+  z-index: -1;
+  top: -19px;
+  right: -60px;
+}
+
+.previewWrapper {
+  display: flex;
+}
+
+.preview {
+  display: flex;
+  flex-direction: column;
+  margin-top: 199px;
+}
+
+.sloganWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sloganWrapper img {
+  width: 32px;
+  height: 32px;
+}
+
+.slogan {
+  color: #57b8ff;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.titleWrapper {
+  margin-top: 9px;
+  display: flex;
+  max-width: 656px;
+}
+
+.titleWrapper h1 {
+  color: #fff;
+  text-align: start;
+  font-size: 72px;
+  line-height: 86px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.highlightWord {
+  position: relative;
+}
+
+.highlight {
+  position: absolute;
+  top: 80px;
+  left: 10px;
+}
+
+.subtitle {
+  margin-top: 44px;
+  max-width: 615px;
+  color: #999;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.controls {
+  margin-top: 34px;
+  align-items: center;
+  display: flex;
+  gap: 40px;
+}
+
+.activeButton {
+  padding: 21px 35px;
+  background: #57b8ff;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+
+.button {
+  font-size: 18px;
+}
+
+.introImage {
+  margin-top: 213px;
+  margin-left: 4px;
+  width: 661px;
+  height: 518px;
+  background-image: url('../../../../assets/images/mainImage.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
