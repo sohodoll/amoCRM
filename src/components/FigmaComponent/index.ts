@@ -1,0 +1,1 @@
+export { FigmaComponent } from './FigmaComponent'

@@ -43,6 +43,10 @@ a.active {
   border-bottom: 1px solid;
 }
 
+ul {
+  list-style-type: none;
+}
+
 #root {
   display: flex;
   flex-direction: column;

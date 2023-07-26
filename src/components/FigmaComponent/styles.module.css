@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+.layout {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100%;
+  background-color: black;
+  font-family: 'Orbitron', sans-serif;
+  z-index: 10;
+}
+
+.wrapper {
+  max-width: 1320px;
+  padding-top: 20px;
+  height: 100%;
+  margin: 0 auto;
+  border: 1px gray solid;
+}
