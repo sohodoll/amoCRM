@@ -1,0 +1,57 @@
+.features {
+  min-height: 695px;
+  background: #2a313c;
+  position: absolute;
+  min-width: 1440px;
+  left: -60px;
+}
+
+.featuresWrapper {
+  display: flex;
+  gap: 128px;
+}
+
+.secondMainImage {
+  margin-left: 60px;
+}
+
+.titleWrapper h1 {
+  color: #fff;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 74px;
+  text-align: start;
+  text-transform: capitalize;
+}
+
+.featuresDescriptionWrapper {
+  margin-top: 80px;
+  max-width: 596px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+}
+
+.subtitle {
+  max-width: 561px;
+  margin-top: 40px;
+  color: rgba(223, 223, 223, 0.8);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.slider {
+  margin-top: 45px;
+  margin-left: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.activeSlide {
+  box-shadow: 0px 0px 0px 11px #3b3d46;
+  border-radius: 18px;
+}

@@ -5,4 +5,5 @@
   width: 100%;
   align-items: center;
   padding-top: 2rem; /* to compensate for the header */
+  position: relative;
 }

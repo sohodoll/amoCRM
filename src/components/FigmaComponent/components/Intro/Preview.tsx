@@ -1,15 +1,14 @@
 import styles from './styles.module.css'
-import fireLogo from 'assets/images/logos/fireLogo.png'
 import highlight from 'assets/images/highlight.png'
+import { Socials } from './Socials'
+import { Slogan } from '../Slogan'
 
 export const Preview = () => {
   return (
     <div className={styles.previewWrapper}>
+      <Socials />
       <div className={styles.preview}>
-        <span className={styles.sloganWrapper}>
-          <img src={fireLogo} alt='fireLogo' />
-          <p className={styles.slogan}>Future of Esports</p>
-        </span>
+        <Slogan />
         <div className={styles.titleWrapper}>
           <h1>
             Unleash The Next{' '}

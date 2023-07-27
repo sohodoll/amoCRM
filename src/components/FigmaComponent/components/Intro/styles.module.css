@@ -3,11 +3,12 @@
   height: 1069px;
   position: relative;
   z-index: 10;
+  margin-bottom: -20px;
 }
 
 .layer {
   width: 634px;
-  height: 1069px;
+  height: 100%;
   background: #57b8ff;
   position: absolute;
   z-index: -1;
@@ -17,6 +18,7 @@
 
 .previewWrapper {
   display: flex;
+  position: relative;
 }
 
 .preview {
@@ -106,4 +108,19 @@
   background-image: url('../../../../assets/images/mainImage.png');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.socials {
+  position: absolute;
+  transform: rotate(-90deg);
+  display: flex;
+  gap: 60px;
+  left: -185px;
+  top: 440px;
+}
+
+.socials span {
+  color: #80858f;
+  font-size: 13px;
+  line-height: 25px;
 }
