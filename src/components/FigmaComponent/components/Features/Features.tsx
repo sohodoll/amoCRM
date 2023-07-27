@@ -26,6 +26,10 @@ export const Features = () => {
           </div>
         </div>
       </div>
+      <p className={styles.note}>
+        I need much more time to finish the layout and make the mobile versions than I have right now. I think this already shows some of my
+        abilities to create html.
+      </p>
     </div>
   )
 }
